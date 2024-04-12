@@ -1,8 +1,9 @@
-idade = int("Digite sua idade: ")
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
 
 if idade < 16:
-    print("Não eleitor")
+    print(f"{nome} Não eleitor")
 elif idade > 18 and idade <= 65:
-    print("Eleitor obrigatório")
+    print(f"{nome} Eleitor obrigatório")
 else:
-    print("Eleitor Facultativo")
+    print(f"{nome} Eleitor Facultativo")
