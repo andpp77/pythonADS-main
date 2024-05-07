@@ -1,5 +1,4 @@
-'''4- Escreva um algoritmo que leia um grupo de valores reais e determine quantos 
-valores são positivos e quantos são negativos. Determine, também, qual é o menor 
+'''4- Escreva um algoritmo que leia um grupo de valores reais e determine quantos valores são positivos e quantos são negativos. Determine, também, qual é o menor 
 dessesvalores. Utilize o comando de repetição que desejar.'''
 numPositivo = 0
 numNegativo = 0
