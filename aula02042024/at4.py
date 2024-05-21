@@ -18,4 +18,3 @@ elif imc >= 30 and imc < 40:
 else:
     print("%.2f Seu indice de massa corpória é " %(imc))
     print("Obeso Morbido")
-#%.2f

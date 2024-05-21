@@ -26,10 +26,21 @@ while resp == 's' or resp == 'S':
     else:
         print("Digite uma altura valida!")
     resp = input("Deseja continuar (s = sim / n = não): ")
-mediaM = m/contadorM
-mediaF = f/contadorF
-print(f"Quantidade de homens é {contadorM}")
-print("Media de altura de homens é %.2f" %(mediaM))
-print(f"Quantidade de mulheres é {contadorF}")
-print("Media de altura de mulheres é %.2f" %(mediaF))
+if m == 0:
+    print("Não há homens")
+    mediaF = f/contadorF
+    print(f"Quantidade de mulheres é {contadorF}")
+    print("Media de altura de mulheres é %.2f" %(mediaF))
+elif f == 0:
+    print("Não há mulheres")
+    print(f"Quantidade de homens é {contadorM}")
+    mediaM = m/contadorM
+    print("Media de altura de homens é %.2f" %(mediaM))
+else:
+    mediaM = m/contadorM
+    mediaF = f/contadorF
+    print(f"Quantidade de homens é {contadorM}")
+    print("Media de altura de homens é %.2f" %(mediaM))
+    print(f"Quantidade de mulheres é {contadorF}")
+    print("Media de altura de mulheres é %.2f" %(mediaF))
 print("valeu")
